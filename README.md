@@ -68,7 +68,9 @@ Butuh Node 18 atau lebih baru. Build menulis ulang `index.html` dan 13 file prof
 
 ## Deploy GitHub Pages
 
-Repo ini disiapkan untuk **Deploy from a branch** dari root:
+**Status:** sudah aktif dari branch `main`, folder `/ (root)`. Setiap push ke `main` memicu build baru.
+
+Kalau perlu mengaktifkan ulang atau memindahkan repo:
 
 1. Buka **Settings > Pages**.
 2. Bagian **Build and deployment**, pilih **Deploy from a branch**.
