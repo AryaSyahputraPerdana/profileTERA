@@ -4,9 +4,9 @@
  * Nilai di bawah ini adalah DATA CONTOH untuk uji tata letak, bukan data
  * produksi. Ganti dengan data resmi sebelum poster dicetak, lalu jalankan:
  *
- *   node rpa/build.mjs
+ *   node build.mjs
  *
- * Setiap unit menghasilkan satu halaman di rpa/<name>.html.
+ * Setiap unit menghasilkan satu halaman di <name>.html.
  */
 
 export const units = [

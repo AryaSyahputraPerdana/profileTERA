@@ -418,11 +418,11 @@ async function build() {
 
     const filename = `${unit.name}.html`;
     await writeFile(path.join(root, filename), page(unit), "utf8");
-    console.log(`rpa/${filename}`);
+    console.log(filename);
   }
 
   await writeFile(path.join(root, "index.html"), registryPage(), "utf8");
-  console.log("rpa/index.html");
+  console.log("index.html");
   console.log(`\n${units.length} profil dan 1 registry dibangun.`);
 }
 
